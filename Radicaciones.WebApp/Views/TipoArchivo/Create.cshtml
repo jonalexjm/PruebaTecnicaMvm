@@ -1,0 +1,35 @@
+﻿@model Radicaciones.Core.Entities.TipoArchivo
+
+@{
+    ViewData["Title"] = "Crear Tipo Archivos";
+}
+
+
+<div class="container justify-content-center">
+    <!-- Default box -->
+    <div class="card justify-content-center">
+        <div class="card-header">
+           
+        </div>
+        <div class="card-body">
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label class="col-sm-2 col-form-label">Tipo Archivo</label>
+                    <input type="text" asp-for="NombreTipoArchivo" />
+                </div>
+                <div class="form-group">
+                    <button type="submit"
+                            class="btn btn-outline-primary btn-lg"> Crear</button>
+                </div>
+                
+            </form>
+            
+        </div>
+        <!-- /.card-body -->
+        <div class="card-footer">
+            Footer de ejemplo
+        </div>
+        <!-- /.card-footer-->
+    </div>
+    <!-- /.card -->
+</div>

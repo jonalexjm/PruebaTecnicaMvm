@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radicaciones.WebApp", "Radicaciones.WebApp\Radicaciones.WebApp.csproj", "{5CEFECCF-2A45-4DAB-A614-CB7B06044E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radicaciones.Core", "Radicaciones.Core\Radicaciones.Core.csproj", "{7DC60FEF-30BA-4674-8C0B-DABDDA912AB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radicaciones.Infraestructure", "Radicaciones.Infraestructure\Radicaciones.Infraestructure.csproj", "{E5842C8B-9195-4831-A77C-1EFFC05ABF18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CEFECCF-2A45-4DAB-A614-CB7B06044E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CEFECCF-2A45-4DAB-A614-CB7B06044E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CEFECCF-2A45-4DAB-A614-CB7B06044E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CEFECCF-2A45-4DAB-A614-CB7B06044E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC60FEF-30BA-4674-8C0B-DABDDA912AB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC60FEF-30BA-4674-8C0B-DABDDA912AB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC60FEF-30BA-4674-8C0B-DABDDA912AB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC60FEF-30BA-4674-8C0B-DABDDA912AB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5842C8B-9195-4831-A77C-1EFFC05ABF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5842C8B-9195-4831-A77C-1EFFC05ABF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5842C8B-9195-4831-A77C-1EFFC05ABF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5842C8B-9195-4831-A77C-1EFFC05ABF18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,72 @@
+﻿@model Radicaciones.Core.Entities.Usuario
+
+@{
+    ViewData["Title"] = "Crear Tipo Archivos";
+}
+
+
+<div class="container justify-content-center">
+    <!-- Default box -->
+    <div class="card justify-content-center">
+        <div class="card-header">
+
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit" enctype="multipart/form-data">
+                <input type="hidden" asp-for="Id" />
+                <div class="form-group">
+                    <label class="col-sm-2 col-form-label">Nombre</label>
+                    <input type="text" asp-for="Nombre" />
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 col-form-label">Apellido</label>
+                    <input type="text" asp-for="Apellido" />
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 col-form-label">Telefono</label>
+                    <input type="text" asp-for="Telefono" />
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 col-form-label">Numero de Documento</label>
+                    <input type="text" asp-for="NumeroDocumento" />
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 col-form-label">Ciudad</label>
+                    <input type="text" asp-for="Ciudad" />
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 col-form-label">Correo Electronico</label>
+                    <input type="text" asp-for="CorreoElectronico" />
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 col-form-label">Contraseña</label>
+                    <input type="text" asp-for="Contraseña" />
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 col-form-label">Tipo Usuario</label>
+                    <div class="col-sm-4">
+                        <select class="form-control" asp-items="ViewBag.tipoUsuarioSelect" asp-for="TipoUsuarioId">
+                            <option value=null>Seleccione una opción</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit"
+                            class="btn btn-outline-primary btn-lg">
+                        Crear
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+        <!-- /.card-body -->
+        <div class="card-footer">
+            Footer de ejemplo
+        </div>
+        <!-- /.card-footer-->
+    </div>
+    <!-- /.card -->
+</div>
